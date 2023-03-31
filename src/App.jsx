@@ -8,7 +8,12 @@ function App() {
 
   return (
     <div className="App">
-      <KomunicateChat />
+      <iframe
+        allow="microphone;"
+        // width="350"
+        // height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/74bfde5e-3d3e-46aa-b30c-d9b382eaf25c"
+      ></iframe>
     </div>
   );
 }
